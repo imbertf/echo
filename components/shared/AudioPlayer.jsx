@@ -35,14 +35,14 @@ const AudioPlayer = () => (
         height={40}
       />
     </div>
-    <div className='flex justify-between px-4 space-x-2'>
+    {/* <div className='flex justify-between px-4 space-x-2'>
       <div><ShuffleIcon /></div>
       <div><Volume1Icon /></div>
       <div><Maximize2Icon /></div>
       <div
         className="w-1/2"><Progress value={33} />
       </div>
-    </div>
+    </div> */}
   </ div>
 );
 
