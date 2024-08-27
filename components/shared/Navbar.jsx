@@ -27,7 +27,7 @@ import { BarChartBig, CirclePlusIcon, Heart, HomeIcon, Search, SquarePlusIcon, L
 const NavbarArtist = () => {
   return (
     <NavigationMenu className="sticky bottom-0 sm:relative flex-col justify-normal sm:max-w-[280px] sm:gap-[24px] sm:py-[40px] sm:px-[21px] bg-custom-violet text-white">
-      <div className="flex sm:flex-col sm:w-[238px]">
+      <div className="flex sm:flex-col space-x-2 sm:w-[238px]">
         <NavigationMenuItem className="list-none sm:w-[218px] h-[60px]">
           <div className="sm:w-[130px] h-[60px] flex ">
             <NavigationMenuLink href='/' className="w-[60px] h-[60px] flex items-center justify-center">
