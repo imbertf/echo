@@ -19,8 +19,8 @@ const AudioPlayer = () => (
       <CardContent className="flex items-center p-4">
         <img src="logo.jpeg" alt="album image" className='w-10 rounded-md mr-2' />
         <CardDescription className="max-w-40 text-white truncate ">
-          <p>Title</p>
-          <p>Artist</p>
+          <p>St0rm - Live at Shaka Biarritz</p>
+          <p className='italic'>Riders on the Block</p>
         </CardDescription>
       </CardContent>
       <div className='p-4'>
@@ -35,14 +35,6 @@ const AudioPlayer = () => (
         height={40}
       />
     </div>
-    {/* <div className='flex justify-between px-4 space-x-2'>
-      <div><ShuffleIcon /></div>
-      <div><Volume1Icon /></div>
-      <div><Maximize2Icon /></div>
-      <div
-        className="w-1/2"><Progress value={33} />
-      </div>
-    </div> */}
   </ div>
 );
 

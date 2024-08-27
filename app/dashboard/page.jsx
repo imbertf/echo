@@ -110,7 +110,7 @@ const page = () => {
                   <img src={fan.src} alt="album image" className='w-10 rounded-full mr-2' />
                 </CardContent>
                 <CardContent className="flex items-center p-4 pl-0">{fan.stream}</CardContent>
-                <CardContent className="flex items-center p-4 text-[#2563eb] font-bold">{fan.revenue}</CardContent>
+                <CardContent className="flex items-center p-4 text-[#2563eb] font-bold">{fan.revenue} $</CardContent>
               </Card >
             ))
           }
