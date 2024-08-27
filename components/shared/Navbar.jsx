@@ -23,7 +23,6 @@ import {
 } from "../../components/ui/dropdown-menu"
 
 import { BarChartBig, CirclePlusIcon, Heart, HomeIcon, Search, SquarePlusIcon, ListCollapse } from "lucide-react"
-import Footer from './Footer';
 
 const NavbarArtist = () => {
   return (
@@ -34,9 +33,7 @@ const NavbarArtist = () => {
             <NavigationMenuLink href='/' className="w-[60px] h-[60px] flex items-center justify-center">
               <HomeIcon />
             </NavigationMenuLink>
-            {/* <NavigationMenuLink href="/" className="hidden sm:block flex items-center justify-center w-[70px] h-[56px] gap-[10.36px] py-[15.54px] px-[0px] text-[26px] font-[700] leading-[24px] tracking-[-0.45px]">
-              Home
-            </NavigationMenuLink> */}
+
           </div>
         </NavigationMenuItem>
         <NavigationMenuItem className="list-none sm:w-[218px] h-[60px]">
@@ -44,9 +41,7 @@ const NavbarArtist = () => {
             <div className="w-[60px] h-[60px] flex items-center justify-center">
               <Search />
             </div>
-            {/* <NavigationMenuLink href="/" className="hidden sm:block flex items-center justify-center w-[56px] h-[56px] gap-[10.36px] py-[15.54px] px-[0px] text-[18px] font-[700] leading-[24px] tracking-[-0.45px]">
-              Search
-            </NavigationMenuLink> */}
+
           </div>
         </NavigationMenuItem>
 
@@ -55,9 +50,7 @@ const NavbarArtist = () => {
             <NavigationMenuLink href='/dashboard' className="w-[60px] h-[60px] flex items-center justify-center">
               <BarChartBig />
             </NavigationMenuLink>
-            {/* <NavigationMenuLink href="/dashboard" className="hidden sm:block flex items-center justify-center h-[56px] gap-[10.36px] py-[15.54px] px-[0px] text-[18px] font-[700] leading-[24px] tracking-[-0.45px]">
-              Dashboard
-            </NavigationMenuLink> */}
+
           </div>
         </NavigationMenuItem>
         <NavigationMenuItem className="list-none sm:w-[218px] h-[60px]">
@@ -65,9 +58,7 @@ const NavbarArtist = () => {
             <NavigationMenuLink href='/library' className="w-[60px] h-[60px] flex items-center justify-center">
               <Heart />
             </NavigationMenuLink>
-            {/* <NavigationMenuLink href="/" className="hidden sm:block flex items-center justify-center h-[56px] gap-[10.36px] py-[15.54px] px-[0px] text-[18px] font-[700] leading-[24px] tracking-[-0.45px]">
-              Your library
-            </NavigationMenuLink> */}
+
           </div>
         </NavigationMenuItem>
         <DropdownMenu >
@@ -105,7 +96,6 @@ const NavbarArtist = () => {
         </DropdownMenu >
       </div>
 
-      {/* <Footer /> */}
       < AudioPlayer />
     </NavigationMenu >
   )
