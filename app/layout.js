@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Inter as FontSans } from "next/font/google"
-import Layout from "@/components/shared/Layout";
+import Layout from "../components/shared/Layout";
 
 
 import { cn } from "@/lib/utils"

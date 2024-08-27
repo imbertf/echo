@@ -12,7 +12,7 @@ import {
   NavigationMenuTrigger,
   NavigationMenuViewport,
   navigationMenuTriggerStyle
-} from "@/components/ui/navigation-menu"
+} from "../../components/ui/navigation-menu"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -20,7 +20,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "../../components/ui/dropdown-menu"
 
 import { BarChartBig, CirclePlusIcon, Heart, HomeIcon, Search, SquarePlusIcon, ListCollapse } from "lucide-react"
 import Footer from './Footer';

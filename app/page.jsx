@@ -1,6 +1,6 @@
 'use client'
-import { Button } from "@/components/ui/button";
-import CardArtist from "@/components/shared/CardArtist";
+import { Button } from "../components/ui/button";
+import CardArtist from "../components/shared/CardArtist";
 import Image from "next/image";
 import {
   Carousel,

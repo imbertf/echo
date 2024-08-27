@@ -8,9 +8,9 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
+} from "../../components/ui/card"
 import { HeartIcon, Maximize2Icon, ShuffleIcon, Volume1Icon } from 'lucide-react';
-import { Progress } from "@/components/ui/progress"
+import { Progress } from "../../components/ui/progress"
 
 
 const AudioPlayer = () => (
